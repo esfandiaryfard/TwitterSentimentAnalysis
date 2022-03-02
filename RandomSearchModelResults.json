@@ -1,0 +1,1671 @@
+{
+    "model": "TFIDFLogisticRegression",
+    "model__C": 0.8109198787016106,
+    "model__fit_intercept": true,
+    "model__l1_ratio": 0.7249485252143822,
+    "model__max_iter": 288,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__penalty": "none",
+    "model__solver": "saga",
+    "model__tfidf_max_features": 31729469,
+    "model__tol": 0.00030918487469773297,
+    "mean_test_score": 0.7681684210526315,
+    "mean_score_time": 0.23302245140075684,
+    "mean_fit_time": 26.563869762420655,
+    "mean_train_score": 0.9978263157894738
+}{
+    "model": "TFIDFLinearSVC",
+    "model__C": 0.5873212581906005,
+    "model__dual": false,
+    "model__intercept_scaling": 0.22047856994331974,
+    "model__max_iter": 481,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__penalty": "l2",
+    "model__tfidf_max_features": 26221901,
+    "model__tol": 1.49430247721316e-05,
+    "mean_test_score": 0.780778947368421,
+    "mean_score_time": 0.2562849998474121,
+    "mean_fit_time": 4.735742712020874,
+    "mean_train_score": 0.9857368421052632
+}{
+    "model": "TFIDFLogisticRegression",
+    "model__C": 1.5956021151057533,
+    "model__fit_intercept": true,
+    "model__l1_ratio": 0.957830617677422,
+    "model__max_iter": 223,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__penalty": "l2",
+    "model__solver": "saga",
+    "model__tfidf_max_features": 16122548,
+    "model__tol": 0.00011865199224183609,
+    "mean_test_score": 0.7796421052631579,
+    "mean_score_time": 0.2519691944122314,
+    "mean_fit_time": 5.0969953536987305,
+    "mean_train_score": 0.9182842105263157
+}{
+    "model": "TFIDFDecisionTreeClassifier",
+    "model__ccp_alpha": 8.307415567246572,
+    "model__criterion": "entropy",
+    "model__max_depth": 6,
+    "model__max_features": "log2",
+    "model__max_leaf_nodes": 242,
+    "model__min_impurity_decrease": 6.377180562740645,
+    "model__min_samples_leaf": 19,
+    "model__min_samples_split": 19,
+    "model__min_weight_fraction_leaf": 0.2780996764046284,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__splitter": "best",
+    "model__tfidf_max_features": 30428488,
+    "mean_test_score": 0.5003789473684211,
+    "mean_score_time": 0.5317945003509521,
+    "mean_fit_time": 5.484454584121704,
+    "mean_train_score": 0.500378947368421
+}{
+    "model": "W2VLogisticRegression",
+    "model__C": 1.6992749704543617,
+    "model__epochs": 8,
+    "model__fit_intercept": false,
+    "model__l1_ratio": 0.7529270324308914,
+    "model__max_iter": 908,
+    "model__min_count": 4,
+    "model__penalty": "none",
+    "model__solver": "saga",
+    "model__tol": 0.0006434750625387631,
+    "model__vector_size": 586,
+    "model__window": 7,
+    "mean_test_score": 0.6989473684210527,
+    "mean_score_time": 6.808148193359375,
+    "mean_fit_time": 231.15417613983155,
+    "mean_train_score": 0.7077736842105262
+}{
+    "model": "TFIDFLogisticRegression",
+    "model__C": 0.1558170430715579,
+    "model__fit_intercept": false,
+    "model__l1_ratio": 0.7730525406597839,
+    "model__max_iter": 557,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__penalty": "none",
+    "model__solver": "saga",
+    "model__tfidf_max_features": 7262825,
+    "model__tol": 0.000925437960877091,
+    "mean_test_score": 0.7643157894736842,
+    "mean_score_time": 0.22792634963989258,
+    "mean_fit_time": 16.17939944267273,
+    "mean_train_score": 0.998021052631579
+}{
+    "model": "TFIDFLinearSVC",
+    "model__C": 1.2538555360380106,
+    "model__dual": false,
+    "model__intercept_scaling": 2.223323694923683,
+    "model__max_iter": 568,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__penalty": "l1",
+    "model__tfidf_max_features": 25968167,
+    "model__tol": 0.0007841714599842564,
+    "mean_test_score": 0.771621052631579,
+    "mean_score_time": 0.226729154586792,
+    "mean_fit_time": 4.459413862228393,
+    "mean_train_score": 0.9303631578947369
+}{
+    "model": "TFIDFLinearSVC",
+    "model__C": 1.4128733032430432,
+    "model__dual": false,
+    "model__intercept_scaling": 9.51140141076591,
+    "model__max_iter": 1036,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__penalty": "l2",
+    "model__tfidf_max_features": 35938305,
+    "model__tol": 0.0006367660582537537,
+    "mean_test_score": 0.7739578947368421,
+    "mean_score_time": 0.3071254253387451,
+    "mean_fit_time": 5.657006931304932,
+    "mean_train_score": 0.9961894736842105
+}{
+    "model": "TFIDFMultinomialNB",
+    "model__alpha": 4.070873338037365,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__tfidf_max_features": 5062089,
+    "mean_test_score": 0.7659578947368422,
+    "mean_score_time": 0.3108227252960205,
+    "mean_fit_time": 3.1061410427093508,
+    "mean_train_score": 0.8838315789473684
+}{
+    "model": "TFIDFLogisticRegression",
+    "model__C": 0.5765767464194681,
+    "model__fit_intercept": true,
+    "model__l1_ratio": 0.006189238670108788,
+    "model__max_iter": 221,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__penalty": "l2",
+    "model__solver": "saga",
+    "model__tfidf_max_features": 11428081,
+    "model__tol": 0.0009195444611887152,
+    "mean_test_score": 0.7726105263157895,
+    "mean_score_time": 0.28701043128967285,
+    "mean_fit_time": 4.117835569381714,
+    "mean_train_score": 0.8605526315789473
+}{
+    "model": "TFIDFLinearSVC",
+    "model__C": 0.9893354228430841,
+    "model__dual": false,
+    "model__intercept_scaling": 8.298110855328211,
+    "model__max_iter": 1591,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__penalty": "l2",
+    "model__tfidf_max_features": 37202359,
+    "model__tol": 0.0009955603601118608,
+    "mean_test_score": 0.776778947368421,
+    "mean_score_time": 0.3131675720214844,
+    "mean_fit_time": 5.957918310165406,
+    "mean_train_score": 0.9943789473684209
+}{
+    "model": "TFIDFDecisionTreeClassifier",
+    "model__ccp_alpha": 6.44703165769436,
+    "model__criterion": "entropy",
+    "model__max_depth": 10,
+    "model__max_features": "log2",
+    "model__max_leaf_nodes": 581,
+    "model__min_impurity_decrease": 0.5753663582115176,
+    "model__min_samples_leaf": 20,
+    "model__min_samples_split": 12,
+    "model__min_weight_fraction_leaf": 0.49521231954037587,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__splitter": "random",
+    "model__tfidf_max_features": 19286649,
+    "mean_test_score": 0.500778947368421,
+    "mean_score_time": 0.28702487945556643,
+    "mean_fit_time": 3.0897525787353515,
+    "mean_train_score": 0.5007789473684211
+}{
+    "model": "W2VLogisticRegression",
+    "model__C": 0.25995803459270006,
+    "model__epochs": 10,
+    "model__fit_intercept": true,
+    "model__l1_ratio": 0.9751113203907766,
+    "model__max_iter": 623,
+    "model__min_count": 8,
+    "model__penalty": "none",
+    "model__solver": "saga",
+    "model__tol": 0.0006468888759000468,
+    "model__vector_size": 891,
+    "model__window": 9,
+    "mean_test_score": 0.7102105263157894,
+    "mean_score_time": 11.262764596939087,
+    "mean_fit_time": 382.5334430217743,
+    "mean_train_score": 0.718321052631579
+}{
+    "model": "W2VLogisticRegression",
+    "model__C": 1.1957161133265135,
+    "model__epochs": 10,
+    "model__fit_intercept": false,
+    "model__l1_ratio": 0.6499529142015971,
+    "model__max_iter": 354,
+    "model__min_count": 4,
+    "model__penalty": "l2",
+    "model__solver": "saga",
+    "model__tol": 0.0001864061324162166,
+    "model__vector_size": 302,
+    "model__window": 5,
+    "mean_test_score": 0.6976210526315789,
+    "mean_score_time": 7.846724176406861,
+    "mean_fit_time": 91.910968875885,
+    "mean_train_score": 0.6976894736842105
+}{
+    "model": "TFIDFLinearSVC",
+    "model__C": 1.8335027016785244,
+    "model__dual": false,
+    "model__intercept_scaling": 3.589749079566039,
+    "model__max_iter": 572,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__penalty": "l2",
+    "model__tfidf_max_features": 28401462,
+    "model__tol": 0.00043350226473259224,
+    "mean_test_score": 0.7719789473684211,
+    "mean_score_time": 0.3023810386657715,
+    "mean_fit_time": 6.688114976882934,
+    "mean_train_score": 0.9968631578947369
+}{
+    "model": "TFIDFLogisticRegression",
+    "model__C": 0.8467069885660462,
+    "model__fit_intercept": false,
+    "model__l1_ratio": 0.39808699640578915,
+    "model__max_iter": 172,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__penalty": "l1",
+    "model__solver": "saga",
+    "model__tfidf_max_features": 37194216,
+    "model__tol": 9.703253804768029e-05,
+    "mean_test_score": 0.7638736842105264,
+    "mean_score_time": 0.25157718658447265,
+    "mean_fit_time": 11.468904066085816,
+    "mean_train_score": 0.7820789473684211
+}
+{
+    "model": "TFIDFLogisticRegression",
+    "model__C": 1.741548543961274,
+    "model__fit_intercept": false,
+    "model__l1_ratio": 0.056184520685349515,
+    "model__max_iter": 560,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__penalty": "l2",
+    "model__solver": "saga",
+    "model__tfidf_max_features": 5414910,
+    "model__tol": 0.0005062963622765171,
+    "mean_test_score": 0.7777263157894737,
+    "mean_score_time": 0.26555352210998534,
+    "mean_fit_time": 4.2347277164459225,
+    "mean_train_score": 0.9237894736842105
+}{
+    "model": "TFIDFMultinomialNB",
+    "model__alpha": 0.968746757642171,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__tfidf_max_features": 28927817,
+    "mean_test_score": 0.7683368421052632,
+    "mean_score_time": 0.2410365581512451,
+    "mean_fit_time": 3.2625448226928713,
+    "mean_train_score": 0.9467947368421052
+}{
+    "model": "TFIDFMultinomialNB",
+    "model__alpha": 0.3038682127727832,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__tfidf_max_features": 10681963,
+    "mean_test_score": 0.7621894736842105,
+    "mean_score_time": 0.206453275680542,
+    "mean_fit_time": 2.2203570365905763,
+    "mean_train_score": 0.9770894736842106
+}{
+    "model": "W2VMultinomialNB",
+    "model__alpha": 1.5770101277685233,
+    "model__epochs": 10,
+    "model__min_count": 9,
+    "model__vector_size": 3516,
+    "model__window": 1,
+    "mean_test_score": 0.6442526315789474,
+    "mean_score_time": 15.372631216049195,
+    "mean_fit_time": 132.34187903404236,
+    "mean_train_score": 0.6436
+}{
+    "model": "TFIDFLinearSVC",
+    "model__C": 1.7993150513382776,
+    "model__dual": false,
+    "model__intercept_scaling": 7.125657640803072,
+    "model__max_iter": 1688,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__penalty": "l2",
+    "model__tfidf_max_features": 19863308,
+    "model__tol": 5.680060834113009e-05,
+    "mean_test_score": 0.7704,
+    "mean_score_time": 0.24284157752990723,
+    "mean_fit_time": 3.9417945384979247,
+    "mean_train_score": 0.9969421052631577
+}{
+    "model": "TFIDFLogisticRegression",
+    "model__C": 1.4739121882539798,
+    "model__fit_intercept": true,
+    "model__l1_ratio": 0.8944005407138322,
+    "model__max_iter": 109,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__penalty": "l1",
+    "model__solver": "saga",
+    "model__tfidf_max_features": 710416,
+    "model__tol": 0.0009599698725320327,
+    "mean_test_score": 0.7766736842105264,
+    "mean_score_time": 0.22762351036071776,
+    "mean_fit_time": 14.129118633270263,
+    "mean_train_score": 0.8065000000000001
+}{
+    "model": "W2VGaussianNB",
+    "model__epochs": 8,
+    "model__min_count": 3,
+    "model__vector_size": 5104,
+    "model__window": 7,
+    "mean_test_score": 0.622042105263158,
+    "mean_score_time": 21.869932413101196,
+    "mean_fit_time": 168.39562335014344,
+    "mean_train_score": 0.6249368421052631
+}{
+    "model": "TFIDFDecisionTreeClassifier",
+    "model__ccp_alpha": 7.677550313382549,
+    "model__criterion": "entropy",
+    "model__max_depth": 8,
+    "model__max_features": "sqrt",
+    "model__max_leaf_nodes": 792,
+    "model__min_impurity_decrease": 8.095948438757228,
+    "model__min_samples_leaf": 15,
+    "model__min_samples_split": 3,
+    "model__min_weight_fraction_leaf": 0.19132715252514093,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__splitter": "random",
+    "model__tfidf_max_features": 28289374,
+    "mean_test_score": 0.5000421052631578,
+    "mean_score_time": 0.2762735843658447,
+    "mean_fit_time": 2.877720260620117,
+    "mean_train_score": 0.500042105263158
+}{
+    "model": "W2VLogisticRegression",
+    "model__C": 0.4088321340835074,
+    "model__epochs": 9,
+    "model__fit_intercept": false,
+    "model__l1_ratio": 0.562595862785556,
+    "model__max_iter": 480,
+    "model__min_count": 9,
+    "model__penalty": "none",
+    "model__solver": "saga",
+    "model__tol": 0.0005911275834741713,
+    "model__vector_size": 1816,
+    "model__window": 1,
+    "mean_test_score": 0.7099368421052632,
+    "mean_score_time": 9.777479600906371,
+    "mean_fit_time": 428.0586775779724,
+    "mean_train_score": 0.7135947368421053
+}{
+    "model": "TFIDFLinearSVC",
+    "model__C": 0.48878237833161353,
+    "model__dual": false,
+    "model__intercept_scaling": 1.3629732222802038,
+    "model__max_iter": 925,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__penalty": "l1",
+    "model__tfidf_max_features": 6614237,
+    "model__tol": 0.0007475195857180552,
+    "mean_test_score": 0.7779578947368422,
+    "mean_score_time": 0.22766728401184083,
+    "mean_fit_time": 2.8651926517486572,
+    "mean_train_score": 0.8228631578947369
+}{
+    "model": "TFIDFLogisticRegression",
+    "model__C": 1.6494078657206312,
+    "model__fit_intercept": true,
+    "model__l1_ratio": 0.02738197098020123,
+    "model__max_iter": 923,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__penalty": "elasticnet",
+    "model__solver": "saga",
+    "model__tfidf_max_features": 48298769,
+    "model__tol": 0.00016647784077318973,
+    "mean_test_score": 0.7804,
+    "mean_score_time": 0.22248373031616211,
+    "mean_fit_time": 420.2617432117462,
+    "mean_train_score": 0.9139105263157894
+}{
+    "model": "TFIDFDecisionTreeClassifier",
+    "model__ccp_alpha": 5.1661611924637585,
+    "model__criterion": "entropy",
+    "model__max_depth": 6,
+    "model__max_features": null,
+    "model__max_leaf_nodes": 855,
+    "model__min_impurity_decrease": 3.8610376992063045,
+    "model__min_samples_leaf": 5,
+    "model__min_samples_split": 12,
+    "model__min_weight_fraction_leaf": 0.29763891098738765,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__splitter": "best",
+    "model__tfidf_max_features": 18207521,
+    "mean_test_score": 0.5000421052631578,
+    "mean_score_time": 0.23785839080810547,
+    "mean_fit_time": 2.557774543762207,
+    "mean_train_score": 0.500042105263158
+}{
+    "model": "TFIDFMultinomialNB",
+    "model__alpha": 3.700788392204653,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__tfidf_max_features": 32662617,
+    "mean_test_score": 0.7680421052631579,
+    "mean_score_time": 0.22623844146728517,
+    "mean_fit_time": 2.4072935581207275,
+    "mean_train_score": 0.8879789473684211
+}{
+    "model": "TFIDFLogisticRegression",
+    "model__C": 0.3553360723038813,
+    "model__fit_intercept": false,
+    "model__l1_ratio": 0.00858718853347884,
+    "model__max_iter": 404,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__penalty": "elasticnet",
+    "model__solver": "saga",
+    "model__tfidf_max_features": 19957998,
+    "model__tol": 0.0006957118107260744,
+    "mean_test_score": 0.7671789473684212,
+    "mean_score_time": 0.21671552658081056,
+    "mean_fit_time": 336.57177357673646,
+    "mean_train_score": 0.8351368421052632
+}{
+    "model": "TFIDFLogisticRegression",
+    "model__C": 0.638954436214673,
+    "model__fit_intercept": false,
+    "model__l1_ratio": 0.48399596137829237,
+    "model__max_iter": 555,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__penalty": "l1",
+    "model__solver": "saga",
+    "model__tfidf_max_features": 33863904,
+    "model__tol": 0.0003345445046515081,
+    "mean_test_score": 0.760378947368421,
+    "mean_score_time": 0.24963006973266602,
+    "mean_fit_time": 6.851692771911621,
+    "mean_train_score": 0.772521052631579
+}{
+    "model": "TFIDFLinearSVC",
+    "model__C": 2.0713678923317396,
+    "model__dual": false,
+    "model__intercept_scaling": 3.168256910761705,
+    "model__max_iter": 1391,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__penalty": "l2",
+    "model__tfidf_max_features": 13935123,
+    "model__tol": 0.0004570099364462591,
+    "mean_test_score": 0.7730105263157896,
+    "mean_score_time": 0.26747879981994627,
+    "mean_fit_time": 5.219325685501099,
+    "mean_train_score": 0.9971526315789474
+}{
+    "model": "TFIDFLinearSVC",
+    "model__C": 1.834131531771939,
+    "model__dual": false,
+    "model__intercept_scaling": 8.062331221200829,
+    "model__max_iter": 1585,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__penalty": "l2",
+    "model__tfidf_max_features": 42564824,
+    "model__tol": 0.0009721760931947359,
+    "mean_test_score": 0.7737684210526317,
+    "mean_score_time": 0.2477738857269287,
+    "mean_fit_time": 4.913844442367553,
+    "mean_train_score": 0.9970105263157893
+}{
+    "model": "W2VLogisticRegression",
+    "model__C": 0.9429920220043359,
+    "model__epochs": 18,
+    "model__fit_intercept": false,
+    "model__l1_ratio": 0.3757206022276107,
+    "model__max_iter": 512,
+    "model__min_count": 4,
+    "model__penalty": "l2",
+    "model__solver": "saga",
+    "model__tol": 0.00026395263282257534,
+    "model__vector_size": 1148,
+    "model__window": 5,
+    "mean_test_score": 0.7080842105263159,
+    "mean_score_time": 14.590532159805297,
+    "mean_fit_time": 169.83428778648377,
+    "mean_train_score": 0.7118736842105264
+}{
+    "model": "TFIDFLinearSVC",
+    "model__C": 1.36366467484942,
+    "model__dual": false,
+    "model__intercept_scaling": 9.221108462305715,
+    "model__max_iter": 177,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__penalty": "l2",
+    "model__tfidf_max_features": 32879502,
+    "model__tol": 0.00012938139533382064,
+    "mean_test_score": 0.7740842105263159,
+    "mean_score_time": 0.2429896354675293,
+    "mean_fit_time": 4.3079598903656,
+    "mean_train_score": 0.9962578947368422
+}{
+    "model": "TFIDFLinearSVC",
+    "model__C": 1.6813964914765236,
+    "model__dual": false,
+    "model__intercept_scaling": 8.279269758127404,
+    "model__max_iter": 942,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__penalty": "l1",
+    "model__tfidf_max_features": 25338489,
+    "model__tol": 0.00010783793772046556,
+    "mean_test_score": 0.7665684210526316,
+    "mean_score_time": 0.20610637664794923,
+    "mean_fit_time": 5.258570814132691,
+    "mean_train_score": 0.9699736842105263
+}{
+    "model": "W2VLinearSVC",
+    "model__C": 2.0683730842553203,
+    "model__dual": false,
+    "model__epochs": 5,
+    "model__intercept_scaling": 8.784624070874317,
+    "model__max_iter": 325,
+    "model__min_count": 7,
+    "model__penalty": "l2",
+    "model__tol": 0.0002349830470931451,
+    "model__vector_size": 3335,
+    "model__window": 8,
+    "mean_test_score": 0.6657052631578948,
+    "mean_score_time": 11.70539994239807,
+    "mean_fit_time": 147.90999875068664,
+    "mean_train_score": 0.6663263157894737
+}{
+    "model": "W2VMultinomialNB",
+    "model__alpha": 2.6188029474624948,
+    "model__epochs": 14,
+    "model__min_count": 7,
+    "model__vector_size": 4570,
+    "model__window": 1,
+    "mean_test_score": 0.660821052631579,
+    "mean_score_time": 25.274667739868164,
+    "mean_fit_time": 253.600603723526,
+    "mean_train_score": 0.6600157894736842
+}{
+    "model": "TFIDFLinearSVC",
+    "model__C": 0.3699569344687449,
+    "model__dual": false,
+    "model__intercept_scaling": 8.377832604027839,
+    "model__max_iter": 463,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__penalty": "l2",
+    "model__tfidf_max_features": 13080969,
+    "model__tol": 0.0008483858211799869,
+    "mean_test_score": 0.7797263157894736,
+    "mean_score_time": 0.24678778648376465,
+    "mean_fit_time": 3.257826900482178,
+    "mean_train_score": 0.9690947368421053
+}{
+    "model": "TFIDFDecisionTreeClassifier",
+    "model__ccp_alpha": 5.777072130855306,
+    "model__criterion": "entropy",
+    "model__max_depth": 10,
+    "model__max_features": "sqrt",
+    "model__max_leaf_nodes": 821,
+    "model__min_impurity_decrease": 9.748777117287185,
+    "model__min_samples_leaf": 13,
+    "model__min_samples_split": 14,
+    "model__min_weight_fraction_leaf": 0.4610073209494162,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__splitter": "random",
+    "model__tfidf_max_features": 2641276,
+    "mean_test_score": 0.5003368421052631,
+    "mean_score_time": 0.21493878364562988,
+    "mean_fit_time": 2.388187313079834,
+    "mean_train_score": 0.5003368421052632
+}{
+    "model": "TFIDFLinearSVC",
+    "model__C": 1.262359758954378,
+    "model__dual": false,
+    "model__intercept_scaling": 4.0713649728055845,
+    "model__max_iter": 1260,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__penalty": "l2",
+    "model__tfidf_max_features": 39354678,
+    "model__tol": 0.0006522128239091558,
+    "mean_test_score": 0.7743368421052631,
+    "mean_score_time": 0.22714786529541015,
+    "mean_fit_time": 3.9525782585144045,
+    "mean_train_score": 0.9958894736842104
+}{
+    "model": "TFIDFDecisionTreeClassifier",
+    "model__ccp_alpha": 1.2892689080729647,
+    "model__criterion": "gini",
+    "model__max_depth": 9,
+    "model__max_features": "log2",
+    "model__max_leaf_nodes": 699,
+    "model__min_impurity_decrease": 8.023476713348948,
+    "model__min_samples_leaf": 16,
+    "model__min_samples_split": 15,
+    "model__min_weight_fraction_leaf": 0.25995791620784087,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__splitter": "random",
+    "model__tfidf_max_features": 35251258,
+    "mean_test_score": 0.4999789473684211,
+    "mean_score_time": 0.22697734832763672,
+    "mean_fit_time": 2.6208115577697755,
+    "mean_train_score": 0.500021052631579
+}{
+    "model": "TFIDFMultinomialNB",
+    "model__alpha": 2.5331234579975974,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__tfidf_max_features": 39229614,
+    "mean_test_score": 0.7687368421052632,
+    "mean_score_time": 0.22050247192382813,
+    "mean_fit_time": 2.452356719970703,
+    "mean_train_score": 0.9061526315789475
+}{
+    "model": "W2VDecisionTreeClassifier",
+    "model__ccp_alpha": 2.394120971900431,
+    "model__criterion": "gini",
+    "model__epochs": 24,
+    "model__max_depth": 2,
+    "model__max_features": "log2",
+    "model__max_leaf_nodes": 147,
+    "model__min_count": 1,
+    "model__min_impurity_decrease": 5.867061666747906,
+    "model__min_samples_leaf": 9,
+    "model__min_samples_split": 9,
+    "model__min_weight_fraction_leaf": 0.14407597679584183,
+    "model__splitter": "random",
+    "model__vector_size": 3567,
+    "model__window": 7,
+    "mean_test_score": 0.4999789473684211,
+    "mean_score_time": 52.316306066513064,
+    "mean_fit_time": 492.47455458641053,
+    "mean_train_score": 0.500021052631579
+}{
+    "model": "W2VGaussianNB",
+    "model__epochs": 5,
+    "model__min_count": 4,
+    "model__vector_size": 8430,
+    "model__window": 7,
+    "mean_test_score": 0.6353473684210525,
+    "mean_score_time": 18.11700897216797,
+    "mean_fit_time": 118.96991410255433,
+    "mean_train_score": 0.6364421052631579
+}{
+    "model": "TFIDFLinearSVC",
+    "model__C": 1.8472570887712463,
+    "model__dual": false,
+    "model__intercept_scaling": 7.711114353603762,
+    "model__max_iter": 1246,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__penalty": "l2",
+    "model__tfidf_max_features": 7366288,
+    "model__tol": 0.00044645862103556103,
+    "mean_test_score": 0.7720842105263158,
+    "mean_score_time": 0.2505331039428711,
+    "mean_fit_time": 4.359080171585083,
+    "mean_train_score": 0.9968999999999999
+}{
+    "model": "TFIDFMultinomialNB",
+    "model__alpha": 1.7798989721600411,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__tfidf_max_features": 722144,
+    "mean_test_score": 0.7680631578947368,
+    "mean_score_time": 0.22566051483154298,
+    "mean_fit_time": 2.530705213546753,
+    "mean_train_score": 0.9218947368421052
+}{
+    "model": "TFIDFDecisionTreeClassifier",
+    "model__ccp_alpha": 7.453077386819911,
+    "model__criterion": "gini",
+    "model__max_depth": 1,
+    "model__max_features": "sqrt",
+    "model__max_leaf_nodes": 174,
+    "model__min_impurity_decrease": 1.2659623819889598,
+    "model__min_samples_leaf": 8,
+    "model__min_samples_split": 8,
+    "model__min_weight_fraction_leaf": 0.276275411100062,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__splitter": "best",
+    "model__tfidf_max_features": 34398288,
+    "mean_test_score": 0.5005052631578948,
+    "mean_score_time": 0.20462045669555665,
+    "mean_fit_time": 2.207670879364014,
+    "mean_train_score": 0.5005052631578947
+}{
+    "model": "TFIDFLinearSVC",
+    "model__C": 0.808313808425068,
+    "model__dual": false,
+    "model__intercept_scaling": 2.8990990208287637,
+    "model__max_iter": 399,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__penalty": "l2",
+    "model__tfidf_max_features": 44901229,
+    "model__tol": 0.0005586543186205661,
+    "mean_test_score": 0.7770736842105264,
+    "mean_score_time": 0.27387399673461915,
+    "mean_fit_time": 3.531172180175781,
+    "mean_train_score": 0.9921631578947367
+}{
+    "model": "TFIDFLogisticRegression",
+    "model__C": 1.1022940647348232,
+    "model__fit_intercept": false,
+    "model__l1_ratio": 0.9736923782677631,
+    "model__max_iter": 979,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__penalty": "none",
+    "model__solver": "saga",
+    "model__tfidf_max_features": 49938879,
+    "model__tol": 0.00027625816894948096,
+    "mean_test_score": 0.7631368421052631,
+    "mean_score_time": 0.2187906265258789,
+    "mean_fit_time": 27.32868103981018,
+    "mean_train_score": 0.9979263157894737
+}{
+    "model": "TFIDFDecisionTreeClassifier",
+    "model__ccp_alpha": 1.3362122724218617,
+    "model__criterion": "gini",
+    "model__max_depth": 8,
+    "model__max_features": "auto",
+    "model__max_leaf_nodes": 799,
+    "model__min_impurity_decrease": 3.599644530723719,
+    "model__min_samples_leaf": 3,
+    "model__min_samples_split": 3,
+    "model__min_weight_fraction_leaf": 0.1552595920302383,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__splitter": "best",
+    "model__tfidf_max_features": 47407909,
+    "mean_test_score": 0.5004842105263159,
+    "mean_score_time": 0.35221238136291505,
+    "mean_fit_time": 3.8249063014984133,
+    "mean_train_score": 0.5004842105263156
+}{
+    "model": "TFIDFDecisionTreeClassifier",
+    "model__ccp_alpha": 3.511600532999833,
+    "model__criterion": "gini",
+    "model__max_depth": 9,
+    "model__max_features": "sqrt",
+    "model__max_leaf_nodes": 791,
+    "model__min_impurity_decrease": 8.902181334270566,
+    "model__min_samples_leaf": 9,
+    "model__min_samples_split": 20,
+    "model__min_weight_fraction_leaf": 0.2939404407649122,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__splitter": "best",
+    "model__tfidf_max_features": 34091084,
+    "mean_test_score": 0.5004842105263159,
+    "mean_score_time": 0.3258028984069824,
+    "mean_fit_time": 3.540151834487915,
+    "mean_train_score": 0.5004842105263156
+}{
+    "model": "W2VLinearSVC",
+    "model__C": 1.1529596033464262,
+    "model__dual": false,
+    "model__epochs": 7,
+    "model__intercept_scaling": 0.962119589217778,
+    "model__max_iter": 1153,
+    "model__min_count": 9,
+    "model__penalty": "l1",
+    "model__tol": 0.00020136805042530735,
+    "model__vector_size": 4355,
+    "model__window": 9,
+    "mean_test_score": 0.6885473684210526,
+    "mean_score_time": 21.50847487449646,
+    "mean_fit_time": 182.4660539150238,
+    "mean_train_score": 0.6887684210526316
+}{
+    "model": "W2VLogisticRegression",
+    "model__C": 1.0738858876736095,
+    "model__epochs": 12,
+    "model__fit_intercept": true,
+    "model__l1_ratio": 0.6458365335972355,
+    "model__max_iter": 702,
+    "model__min_count": 1,
+    "model__penalty": "l1",
+    "model__solver": "saga",
+    "model__tol": 0.0002762133439690339,
+    "model__vector_size": 7098,
+    "model__window": 8,
+    "mean_test_score": 0.6967157894736842,
+    "mean_score_time": 31.679553413391112,
+    "mean_fit_time": 1993.3584089756012,
+    "mean_train_score": 0.6968368421052632
+}{
+    "model": "TFIDFMultinomialNB",
+    "model__alpha": 2.7328842537757554,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__tfidf_max_features": 40548687,
+    "mean_test_score": 0.7711157894736841,
+    "mean_score_time": 0.19729795455932617,
+    "mean_fit_time": 2.1613314151763916,
+    "mean_train_score": 0.9030000000000001
+}{
+    "model": "W2VMultinomialNB",
+    "model__alpha": 4.517024388982435,
+    "model__epochs": 21,
+    "model__min_count": 2,
+    "model__vector_size": 6727,
+    "model__window": 3,
+    "mean_test_score": 0.6785473684210526,
+    "mean_score_time": 46.392255544662476,
+    "mean_fit_time": 337.65711069107056,
+    "mean_train_score": 0.6794789473684212
+}{
+    "model": "W2VGaussianNB",
+    "model__epochs": 13,
+    "model__min_count": 6,
+    "model__vector_size": 6461,
+    "model__window": 7,
+    "mean_test_score": 0.6068631578947369,
+    "mean_score_time": 29.84106550216675,
+    "mean_fit_time": 206.2873782634735,
+    "mean_train_score": 0.6079368421052631
+}{
+    "model": "TFIDFLogisticRegression",
+    "model__C": 1.671984974390657,
+    "model__fit_intercept": false,
+    "model__l1_ratio": 0.3963704304507356,
+    "model__max_iter": 201,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__penalty": "elasticnet",
+    "model__solver": "saga",
+    "model__tfidf_max_features": 41583781,
+    "model__tol": 0.00027834087031752434,
+    "mean_test_score": 0.7773684210526316,
+    "mean_score_time": 0.19056234359741211,
+    "mean_fit_time": 31.34290361404419,
+    "mean_train_score": 0.8344684210526315
+}{
+    "model": "W2VLinearSVC",
+    "model__C": 0.9435142505093831,
+    "model__dual": false,
+    "model__epochs": 19,
+    "model__intercept_scaling": 3.3059259295843835,
+    "model__max_iter": 1800,
+    "model__min_count": 5,
+    "model__penalty": "l1",
+    "model__tol": 0.00022819798401089785,
+    "model__vector_size": 2424,
+    "model__window": 9,
+    "mean_test_score": 0.7102947368421052,
+    "mean_score_time": 20.990606784820557,
+    "mean_fit_time": 250.9464225769043,
+    "mean_train_score": 0.7142578947368421
+}{
+    "model": "TFIDFLinearSVC",
+    "model__C": 2.040533519102124,
+    "model__dual": false,
+    "model__intercept_scaling": 2.615714967179031,
+    "model__max_iter": 1706,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__penalty": "l2",
+    "model__tfidf_max_features": 38243828,
+    "model__tol": 0.0008369907700992576,
+    "mean_test_score": 0.7730526315789473,
+    "mean_score_time": 0.26378960609436036,
+    "mean_fit_time": 3.506425666809082,
+    "mean_train_score": 0.9970947368421053
+}{
+    "model": "W2VGaussianNB",
+    "model__epochs": 6,
+    "model__min_count": 10,
+    "model__vector_size": 5122,
+    "model__window": 10,
+    "mean_test_score": 0.6354315789473685,
+    "mean_score_time": 13.095076608657838,
+    "mean_fit_time": 96.85571990013122,
+    "mean_train_score": 0.6370105263157895
+}{
+    "model": "W2VMultinomialNB",
+    "model__alpha": 4.164571252719755,
+    "model__epochs": 20,
+    "model__min_count": 8,
+    "model__vector_size": 4902,
+    "model__window": 6,
+    "mean_test_score": 0.6853894736842105,
+    "mean_score_time": 35.66793651580811,
+    "mean_fit_time": 288.41244502067565,
+    "mean_train_score": 0.686421052631579
+}{
+    "model": "W2VGaussianNB",
+    "model__epochs": 15,
+    "model__min_count": 5,
+    "model__vector_size": 7803,
+    "model__window": 4,
+    "mean_test_score": 0.6159157894736842,
+    "mean_score_time": 35.542550230026244,
+    "mean_fit_time": 255.67697701454162,
+    "mean_train_score": 0.6180842105263158
+}{
+    "model": "W2VLogisticRegression",
+    "model__C": 1.6654487745926576,
+    "model__epochs": 20,
+    "model__fit_intercept": false,
+    "model__l1_ratio": 0.1718103205488597,
+    "model__max_iter": 119,
+    "model__min_count": 4,
+    "model__penalty": "none",
+    "model__solver": "saga",
+    "model__tol": 0.0007113806670000309,
+    "model__vector_size": 4270,
+    "model__window": 8,
+    "mean_test_score": 0.712378947368421,
+    "mean_score_time": 29.682035970687867,
+    "mean_fit_time": 385.44051027297974,
+    "mean_train_score": 0.7187473684210526
+}{
+    "model": "TFIDFMultinomialNB",
+    "model__alpha": 4.250326147193399,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__tfidf_max_features": 33161022,
+    "mean_test_score": 0.7692842105263159,
+    "mean_score_time": 0.19078435897827148,
+    "mean_fit_time": 2.0204931259155274,
+    "mean_train_score": 0.8820578947368422
+}{
+    "model": "TFIDFDecisionTreeClassifier",
+    "model__ccp_alpha": 6.2597997200560975,
+    "model__criterion": "gini",
+    "model__max_depth": 3,
+    "model__max_features": "log2",
+    "model__max_leaf_nodes": 695,
+    "model__min_impurity_decrease": 8.555910997007699,
+    "model__min_samples_leaf": 9,
+    "model__min_samples_split": 15,
+    "model__min_weight_fraction_leaf": 0.3475912437724059,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__splitter": "random",
+    "model__tfidf_max_features": 3967009,
+    "mean_test_score": 0.5004842105263159,
+    "mean_score_time": 0.20146117210388184,
+    "mean_fit_time": 2.1350146293640138,
+    "mean_train_score": 0.5004842105263156
+}{
+    "model": "TFIDFMultinomialNB",
+    "model__alpha": 4.19757593215367,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__tfidf_max_features": 18926461,
+    "mean_test_score": 0.7693684210526317,
+    "mean_score_time": 0.19671454429626464,
+    "mean_fit_time": 2.0916886806488035,
+    "mean_train_score": 0.8827052631578948
+}{
+    "model": "TFIDFDecisionTreeClassifier",
+    "model__ccp_alpha": 7.105823612749949,
+    "model__criterion": "gini",
+    "model__max_depth": 10,
+    "model__max_features": null,
+    "model__max_leaf_nodes": 77,
+    "model__min_impurity_decrease": 9.281474202156952,
+    "model__min_samples_leaf": 17,
+    "model__min_samples_split": 8,
+    "model__min_weight_fraction_leaf": 0.0738469811837899,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__splitter": "random",
+    "model__tfidf_max_features": 49107189,
+    "mean_test_score": 0.5004842105263159,
+    "mean_score_time": 0.2013543128967285,
+    "mean_fit_time": 2.155920219421387,
+    "mean_train_score": 0.5004842105263156
+}{
+    "model": "TFIDFMultinomialNB",
+    "model__alpha": 1.9750215863092757,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__tfidf_max_features": 38304828,
+    "mean_test_score": 0.7719789473684211,
+    "mean_score_time": 0.19490818977355956,
+    "mean_fit_time": 2.0907631874084474,
+    "mean_train_score": 0.9181631578947369
+}{
+    "model": "W2VLogisticRegression",
+    "model__C": 0.757996625165467,
+    "model__epochs": 11,
+    "model__fit_intercept": true,
+    "model__l1_ratio": 0.4424894326185389,
+    "model__max_iter": 673,
+    "model__min_count": 2,
+    "model__penalty": "none",
+    "model__solver": "saga",
+    "model__tol": 6.62031813464946e-05,
+    "model__vector_size": 2931,
+    "model__window": 8,
+    "mean_test_score": 0.7145894736842106,
+    "mean_score_time": 15.1053307056427,
+    "mean_fit_time": 784.4078969478608,
+    "mean_train_score": 0.7186736842105264
+}{
+    "model": "W2VMultinomialNB",
+    "model__alpha": 2.9600116682738404,
+    "model__epochs": 5,
+    "model__min_count": 4,
+    "model__vector_size": 7307,
+    "model__window": 4,
+    "mean_test_score": 0.6282947368421052,
+    "mean_score_time": 13.370301342010498,
+    "mean_fit_time": 96.72001967430114,
+    "mean_train_score": 0.6290473684210526
+}{
+    "model": "W2VDecisionTreeClassifier",
+    "model__ccp_alpha": 6.698429949295815,
+    "model__criterion": "gini",
+    "model__epochs": 6,
+    "model__max_depth": 8,
+    "model__max_features": "log2",
+    "model__max_leaf_nodes": 371,
+    "model__min_count": 10,
+    "model__min_impurity_decrease": 0.15335330334785735,
+    "model__min_samples_leaf": 7,
+    "model__min_samples_split": 6,
+    "model__min_weight_fraction_leaf": 0.38885175324299204,
+    "model__splitter": "best",
+    "model__vector_size": 7567,
+    "model__window": 7,
+    "mean_test_score": 0.5004631578947368,
+    "mean_score_time": 15.535380506515503,
+    "mean_fit_time": 106.95032482147217,
+    "mean_train_score": 0.5004631578947369
+}{
+    "model": "TFIDFLogisticRegression",
+    "model__C": 1.3391352238424374,
+    "model__fit_intercept": false,
+    "model__l1_ratio": 0.2346904941957444,
+    "model__max_iter": 349,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__penalty": "none",
+    "model__solver": "saga",
+    "model__tfidf_max_features": 19687674,
+    "model__tol": 4.081920868932974e-05,
+    "mean_test_score": 0.7652421052631577,
+    "mean_score_time": 0.19919915199279786,
+    "mean_fit_time": 18.674294853210448,
+    "mean_train_score": 0.9979999999999999
+}{
+    "model": "TFIDFLinearSVC",
+    "model__C": 1.6893704358049895,
+    "model__dual": false,
+    "model__intercept_scaling": 0.31117778482795055,
+    "model__max_iter": 226,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__penalty": "l1",
+    "model__tfidf_max_features": 39987873,
+    "model__tol": 0.0002187774903481221,
+    "mean_test_score": 0.7678526315789475,
+    "mean_score_time": 0.19687318801879883,
+    "mean_fit_time": 3.6636632442474366,
+    "mean_train_score": 0.970878947368421
+}{
+    "model": "TFIDFLinearSVC",
+    "model__C": 0.9482750773871055,
+    "model__dual": false,
+    "model__intercept_scaling": 1.6163939822462525,
+    "model__max_iter": 1166,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__penalty": "l2",
+    "model__tfidf_max_features": 23648624,
+    "model__tol": 0.0005061157448918369,
+    "mean_test_score": 0.7785473684210527,
+    "mean_score_time": 0.22420644760131836,
+    "mean_fit_time": 2.7504802703857423,
+    "mean_train_score": 0.9939894736842106
+}{
+    "model": "W2VDecisionTreeClassifier",
+    "model__ccp_alpha": 0.8791084032102536,
+    "model__criterion": "gini",
+    "model__epochs": 19,
+    "model__max_depth": 2,
+    "model__max_features": "auto",
+    "model__max_leaf_nodes": 2,
+    "model__min_count": 9,
+    "model__min_impurity_decrease": 0.659534140304332,
+    "model__min_samples_leaf": 20,
+    "model__min_samples_split": 11,
+    "model__min_weight_fraction_leaf": 0.36514569780690903,
+    "model__splitter": "best",
+    "model__vector_size": 995,
+    "model__window": 2,
+    "mean_test_score": 0.500778947368421,
+    "mean_score_time": 11.275598096847535,
+    "mean_fit_time": 138.52610211372377,
+    "mean_train_score": 0.5007789473684211
+}{
+    "model": "W2VGaussianNB",
+    "model__epochs": 8,
+    "model__min_count": 9,
+    "model__vector_size": 4198,
+    "model__window": 10,
+    "mean_test_score": 0.6244421052631578,
+    "mean_score_time": 13.099443292617797,
+    "mean_fit_time": 93.57874426841735,
+    "mean_train_score": 0.6260263157894737
+}{
+    "model": "TFIDFMultinomialNB",
+    "model__alpha": 2.6539180050239097,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__tfidf_max_features": 45142402,
+    "mean_test_score": 0.7676842105263159,
+    "mean_score_time": 0.21152863502502442,
+    "mean_fit_time": 2.3429110050201416,
+    "mean_train_score": 0.9030315789473683
+}{
+    "model": "TFIDFLogisticRegression",
+    "model__C": 1.1516515648269794,
+    "model__fit_intercept": true,
+    "model__l1_ratio": 0.1589742915351603,
+    "model__max_iter": 845,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__penalty": "l1",
+    "model__solver": "saga",
+    "model__tfidf_max_features": 29744149,
+    "model__tol": 0.00039394587253932067,
+    "mean_test_score": 0.7758526315789475,
+    "mean_score_time": 0.18834257125854492,
+    "mean_fit_time": 10.41247763633728,
+    "mean_train_score": 0.7957315789473685
+}{
+    "model": "TFIDFMultinomialNB",
+    "model__alpha": 2.8758247880534955,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__tfidf_max_features": 34075824,
+    "mean_test_score": 0.7675368421052632,
+    "mean_score_time": 0.19599514007568358,
+    "mean_fit_time": 2.0629318237304686,
+    "mean_train_score": 0.8992052631578948
+}{
+    "model": "TFIDFMultinomialNB",
+    "model__alpha": 2.6751040175304057,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__tfidf_max_features": 2620753,
+    "mean_test_score": 0.7677052631578947,
+    "mean_score_time": 0.19452033042907715,
+    "mean_fit_time": 2.046418285369873,
+    "mean_train_score": 0.9026894736842106
+}{
+    "model": "W2VLinearSVC",
+    "model__C": 0.441241236892857,
+    "model__dual": false,
+    "model__epochs": 17,
+    "model__intercept_scaling": 8.259621041782172,
+    "model__max_iter": 1696,
+    "model__min_count": 5,
+    "model__penalty": "l2",
+    "model__tol": 0.0009310388873060515,
+    "model__vector_size": 4544,
+    "model__window": 3,
+    "mean_test_score": 0.7119578947368421,
+    "mean_score_time": 24.245455074310303,
+    "mean_fit_time": 295.9619587898254,
+    "mean_train_score": 0.7139421052631578
+}{
+    "model": "W2VLogisticRegression",
+    "model__C": 1.8035449182843244,
+    "model__epochs": 13,
+    "model__fit_intercept": true,
+    "model__l1_ratio": 0.938956231426241,
+    "model__max_iter": 772,
+    "model__min_count": 5,
+    "model__penalty": "elasticnet",
+    "model__solver": "saga",
+    "model__tol": 0.0009023830103469215,
+    "model__vector_size": 9942,
+    "model__window": 7,
+    "mean_test_score": 0.6988,
+    "mean_score_time": 40.44750862121582,
+    "mean_fit_time": 906.0682881355285,
+    "mean_train_score": 0.7035421052631579
+}{
+    "model": "TFIDFLogisticRegression",
+    "model__C": 0.35492046428821233,
+    "model__fit_intercept": false,
+    "model__l1_ratio": 0.5723024512963251,
+    "model__max_iter": 777,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__penalty": "none",
+    "model__solver": "saga",
+    "model__tfidf_max_features": 25694732,
+    "model__tol": 0.0005465966743821955,
+    "mean_test_score": 0.7653473684210527,
+    "mean_score_time": 0.18658084869384767,
+    "mean_fit_time": 12.956613492965698,
+    "mean_train_score": 0.997942105263158
+}{
+    "model": "W2VDecisionTreeClassifier",
+    "model__ccp_alpha": 3.908601967974649,
+    "model__criterion": "entropy",
+    "model__epochs": 7,
+    "model__max_depth": 2,
+    "model__max_features": "sqrt",
+    "model__max_leaf_nodes": 10,
+    "model__min_count": 6,
+    "model__min_impurity_decrease": 7.754325104702882,
+    "model__min_samples_leaf": 3,
+    "model__min_samples_split": 2,
+    "model__min_weight_fraction_leaf": 0.37319700340497663,
+    "model__splitter": "random",
+    "model__vector_size": 3680,
+    "model__window": 8,
+    "mean_test_score": 0.500778947368421,
+    "mean_score_time": 13.459037828445435,
+    "mean_fit_time": 109.32921323776245,
+    "mean_train_score": 0.5007789473684211
+}{
+    "model": "W2VDecisionTreeClassifier",
+    "model__ccp_alpha": 3.6111253952998457,
+    "model__criterion": "gini",
+    "model__epochs": 18,
+    "model__max_depth": 2,
+    "model__max_features": null,
+    "model__max_leaf_nodes": 681,
+    "model__min_count": 7,
+    "model__min_impurity_decrease": 6.818252364680833,
+    "model__min_samples_leaf": 20,
+    "model__min_samples_split": 2,
+    "model__min_weight_fraction_leaf": 0.254083777396309,
+    "model__splitter": "best",
+    "model__vector_size": 2594,
+    "model__window": 9,
+    "mean_test_score": 0.5000421052631578,
+    "mean_score_time": 25.185781478881836,
+    "mean_fit_time": 224.2514612197876,
+    "mean_train_score": 0.500042105263158
+}{
+    "model": "TFIDFLogisticRegression",
+    "model__C": 1.449647804284256,
+    "model__fit_intercept": false,
+    "model__l1_ratio": 0.5669167257288588,
+    "model__max_iter": 317,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__penalty": "elasticnet",
+    "model__solver": "saga",
+    "model__tfidf_max_features": 34624055,
+    "model__tol": 0.00027103622761719863,
+    "mean_test_score": 0.7743157894736842,
+    "mean_score_time": 0.1978684425354004,
+    "mean_fit_time": 14.89125337600708,
+    "mean_train_score": 0.8140684210526317
+}{
+    "model": "TFIDFMultinomialNB",
+    "model__alpha": 3.4088835813394747,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__tfidf_max_features": 17005100,
+    "mean_test_score": 0.7665684210526316,
+    "mean_score_time": 0.22318534851074218,
+    "mean_fit_time": 2.624839496612549,
+    "mean_train_score": 0.8914157894736843
+}{
+    "model": "W2VLogisticRegression",
+    "model__C": 1.9577127869189421,
+    "model__epochs": 10,
+    "model__fit_intercept": false,
+    "model__l1_ratio": 0.4464706624437752,
+    "model__max_iter": 408,
+    "model__min_count": 4,
+    "model__penalty": "l2",
+    "model__solver": "saga",
+    "model__tol": 0.0005511166761866231,
+    "model__vector_size": 7970,
+    "model__window": 5,
+    "mean_test_score": 0.6940210526315791,
+    "mean_score_time": 26.76733794212341,
+    "mean_fit_time": 229.12868943214417,
+    "mean_train_score": 0.6976315789473684
+}{
+    "model": "W2VDecisionTreeClassifier",
+    "model__ccp_alpha": 7.401810843828658,
+    "model__criterion": "gini",
+    "model__epochs": 15,
+    "model__max_depth": 7,
+    "model__max_features": "sqrt",
+    "model__max_leaf_nodes": 742,
+    "model__min_count": 1,
+    "model__min_impurity_decrease": 5.660212882644168,
+    "model__min_samples_leaf": 9,
+    "model__min_samples_split": 7,
+    "model__min_weight_fraction_leaf": 0.06785418914582836,
+    "model__splitter": "best",
+    "model__vector_size": 8260,
+    "model__window": 5,
+    "mean_test_score": 0.5006526315789473,
+    "mean_score_time": 41.10467619895935,
+    "mean_fit_time": 314.2992956161499,
+    "mean_train_score": 0.5006526315789473
+}{
+    "model": "TFIDFDecisionTreeClassifier",
+    "model__ccp_alpha": 0.9127054362101239,
+    "model__criterion": "entropy",
+    "model__max_depth": 5,
+    "model__max_features": null,
+    "model__max_leaf_nodes": 284,
+    "model__min_impurity_decrease": 6.87182849500711,
+    "model__min_samples_leaf": 14,
+    "model__min_samples_split": 13,
+    "model__min_weight_fraction_leaf": 0.34660476396713663,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__splitter": "random",
+    "model__tfidf_max_features": 32844719,
+    "mean_test_score": 0.5006526315789473,
+    "mean_score_time": 0.20200119018554688,
+    "mean_fit_time": 2.1744382858276365,
+    "mean_train_score": 0.5006526315789473
+}{
+    "model": "TFIDFMultinomialNB",
+    "model__alpha": 3.8363282180267264,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__tfidf_max_features": 49558100,
+    "mean_test_score": 0.766378947368421,
+    "mean_score_time": 0.22472329139709474,
+    "mean_fit_time": 2.2594187259674072,
+    "mean_train_score": 0.8854631578947367
+}{
+    "model": "TFIDFLogisticRegression",
+    "model__C": 1.333140168295103,
+    "model__fit_intercept": false,
+    "model__l1_ratio": 0.19440010009245856,
+    "model__max_iter": 748,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__penalty": "elasticnet",
+    "model__solver": "saga",
+    "model__tfidf_max_features": 15254417,
+    "model__tol": 0.00018481804311089222,
+    "mean_test_score": 0.7757894736842105,
+    "mean_score_time": 0.2317044734954834,
+    "mean_fit_time": 96.76927461624146,
+    "mean_train_score": 0.8439526315789474
+}{
+    "model": "TFIDFMultinomialNB",
+    "model__alpha": 4.901045773063809,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__tfidf_max_features": 37553514,
+    "mean_test_score": 0.7642526315789474,
+    "mean_score_time": 0.2062103271484375,
+    "mean_fit_time": 2.1138500690460207,
+    "mean_train_score": 0.8737684210526314
+}{
+    "model": "W2VLogisticRegression",
+    "model__C": 0.16681269724837136,
+    "model__epochs": 13,
+    "model__fit_intercept": true,
+    "model__l1_ratio": 0.14080930190331997,
+    "model__max_iter": 300,
+    "model__min_count": 6,
+    "model__penalty": "l1",
+    "model__solver": "saga",
+    "model__tol": 0.0004991446819218139,
+    "model__vector_size": 2175,
+    "model__window": 1,
+    "mean_test_score": 0.6818315789473683,
+    "mean_score_time": 13.291292715072633,
+    "mean_fit_time": 224.06427512168884,
+    "mean_train_score": 0.6815315789473684
+}{
+    "model": "TFIDFLogisticRegression",
+    "model__C": 0.6764228478125517,
+    "model__fit_intercept": true,
+    "model__l1_ratio": 0.21675290341300735,
+    "model__max_iter": 503,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__penalty": "l2",
+    "model__solver": "saga",
+    "model__tfidf_max_features": 31304114,
+    "model__tol": 6.806332940205816e-05,
+    "mean_test_score": 0.7746315789473683,
+    "mean_score_time": 0.1992959976196289,
+    "mean_fit_time": 2.9841546535491945,
+    "mean_train_score": 0.8689473684210526
+}{
+    "model": "TFIDFDecisionTreeClassifier",
+    "model__ccp_alpha": 4.323568215455418,
+    "model__criterion": "gini",
+    "model__max_depth": 6,
+    "model__max_features": "log2",
+    "model__max_leaf_nodes": 173,
+    "model__min_impurity_decrease": 2.6350508324640254,
+    "model__min_samples_leaf": 6,
+    "model__min_samples_split": 9,
+    "model__min_weight_fraction_leaf": 0.21300651401616588,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__splitter": "best",
+    "model__tfidf_max_features": 47495773,
+    "mean_test_score": 0.5000421052631578,
+    "mean_score_time": 0.20744023323059083,
+    "mean_fit_time": 2.1078638553619387,
+    "mean_train_score": 0.500042105263158
+}{
+    "model": "TFIDFDecisionTreeClassifier",
+    "model__ccp_alpha": 2.366203905547024,
+    "model__criterion": "entropy",
+    "model__max_depth": 1,
+    "model__max_features": null,
+    "model__max_leaf_nodes": 252,
+    "model__min_impurity_decrease": 6.940549031399552,
+    "model__min_samples_leaf": 12,
+    "model__min_samples_split": 9,
+    "model__min_weight_fraction_leaf": 0.462475984341753,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__splitter": "best",
+    "model__tfidf_max_features": 11721455,
+    "mean_test_score": 0.5000421052631578,
+    "mean_score_time": 0.20062661170959473,
+    "mean_fit_time": 2.1985614776611326,
+    "mean_train_score": 0.500042105263158
+}{
+    "model": "W2VLinearSVC",
+    "model__C": 1.8808488317966847,
+    "model__dual": false,
+    "model__epochs": 5,
+    "model__intercept_scaling": 5.008787052205495,
+    "model__max_iter": 1484,
+    "model__min_count": 2,
+    "model__penalty": "l2",
+    "model__tol": 0.0001362655321007662,
+    "model__vector_size": 4509,
+    "model__window": 10,
+    "mean_test_score": 0.6682315789473684,
+    "mean_score_time": 11.568952798843384,
+    "mean_fit_time": 153.1354748249054,
+    "mean_train_score": 0.6677842105263158
+}{
+    "model": "TFIDFLogisticRegression",
+    "model__C": 1.6810028663145626,
+    "model__fit_intercept": true,
+    "model__l1_ratio": 0.24397968259630154,
+    "model__max_iter": 709,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__penalty": "elasticnet",
+    "model__solver": "saga",
+    "model__tfidf_max_features": 23817038,
+    "model__tol": 0.0004691136022587207,
+    "mean_test_score": 0.7790315789473685,
+    "mean_score_time": 0.20123505592346191,
+    "mean_fit_time": 87.06638565063477,
+    "mean_train_score": 0.8506526315789473
+}
+{
+    "model": "TFIDFDecisionTreeClassifier",
+    "model__ccp_alpha": 2.1376762679541828,
+    "model__criterion": "gini",
+    "model__max_depth": 2,
+    "model__max_features": "sqrt",
+    "model__max_leaf_nodes": 405,
+    "model__min_impurity_decrease": 2.20467197558881,
+    "model__min_samples_leaf": 8,
+    "model__min_samples_split": 2,
+    "model__min_weight_fraction_leaf": 0.28556747527106713,
+    "model__ngram_range": [
+        1,
+        2
+    ],
+    "model__splitter": "best",
+    "model__tfidf_max_features": 2042427,
+    "mean_test_score": 0.5006736842105263,
+    "mean_score_time": 0.24588971138000487,
+    "mean_fit_time": 2.5881466388702394,
+    "mean_train_score": 0.5006736842105264
+}{
+    "model": "W2VMultinomialNB",
+    "model__alpha": 0.41609399276780756,
+    "model__epochs": 8,
+    "model__min_count": 7,
+    "model__vector_size": 1459,
+    "model__window": 6,
+    "mean_test_score": 0.6645684210526316,
+    "mean_score_time": 7.034969711303711,
+    "mean_fit_time": 71.81153001785279,
+    "mean_train_score": 0.6658631578947369
+}

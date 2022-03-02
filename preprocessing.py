@@ -3,7 +3,6 @@ import string
 import re
 from nltk.stem import SnowballStemmer
 import pandas as pd
-import time
 
 
 class Preprocessing:
@@ -71,18 +70,18 @@ class Preprocessing:
             sentiment = 1
         return sentiment
 
+    def preprocess(df):
+        print("starting preprocessing...")
+        df["text"] = df["text"].apply(lambda x: Preprocessing.text_processing(x))
+        df["sentiment"] = df["sentiment"].apply(lambda x: Preprocessing.sentiment_preprocess(x))
+        print("...preprocessing completed")
+        return df
+
     def main(self):
         path = "{BaseDir}/TwiiterSentimentAnalysis/data/dataset.csv".format(BaseDir=BASE_DIR)
         columns = ["sentiment", "ids", "date", "flag", "user", "text"]
         final_columns = ["text", "sentiment"]
         df = pd.read_csv(path, encoding='ISO-8859-1', names=columns)
         df = df[final_columns]
-        print("starting preprocessing...")
-        df["text"] = df["text"].apply(lambda x: Preprocessing.text_processing(x))
-        df["sentiment"] = df["sentiment"].apply(lambda x: Preprocessing.sentiment_preprocess(x))
-        print("...preprocessing completed")
-        print(df['text', 'sentiment'])
+        return df
 
-
-a = Preprocessing()
-a.main()
