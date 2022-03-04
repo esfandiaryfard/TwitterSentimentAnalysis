@@ -1,7 +1,5 @@
 import numpy as np
 import pandas as pd
-from nltk.stem import SnowballStemmer
-from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
 # from sklearn.metrics import confusion_matrix, classification_report
 import random
@@ -194,32 +192,30 @@ class ModelSelection:
 
         ModelSelection.apply_random_search(pip, params_grid, X_train, Y_train, "RandomSearchModelResults")
 
+    def second_screening(self):
+        prp = Preprocessing()
+        df = prp.main()
+        df = Preprocessing.preprocess(df)
+        X_train, X_test, Y_train, Y_test = ModelSelection.df_train_test_split(df, "text", "sentiment", test_size=0.05)
 
-    def second_screening(df):
-        X_train, X_test, Y_train, Y_test = df_train_test_split(df, "text", "sentiment", test_size=0.05)
+        cnb1 = cnb.TFIDFLinearSVC()
 
-        w2v1 = w2v.W2VDecisionTreeClassifier()
-
-        pip = Pipeline([('model', w2v1)])
-        params_grid = [dict(model=[cnb.TFIDFMultinomialNB()],
-                            model__tfidf_max_features=dists.randint(1, 50000000),
-                            model__ngram_range=[(1, 2)],
-                            model__alpha=dists.uniform(0, 5.0)
+        pip = Pipeline([('model', cnb1)])
+        params_grid = [dict(model=[cnb.TFIDFLinearSVC()],
+                            model__tfidf_max_features=dists.randint(6614037, 44901229),
+                            model__penalty='l2',
+                            model__tol=dists.uniform(0.000014, 0.00099),
+                            model__C=dists.uniform(0.3, 2.0),
+                            model__intercept_scaling=dists.uniform(0.22, 9.51),
+                            model__max_iter=dists.randint(177, 1706)
                             ),
-                       dict(model=[cnb.TFIDFLogisticRegression()],
-                            model__tfidf_max_features=dists.randint(1, 50000000),
-                            model__ngram_range=[(1, 2)],
-                            model__penalty='l1',
-                            model__tol=dists.uniform(0, 0.00002),
-                            model__C=dists.uniform(0, 0.1),
-                            model__fit_intercept=True,
-                            model__solver=['saga'],
-                            model__max_iter=dists.randint(0, 35),
-                            model__l1_ratio=dists.uniform(0.0, 0.14)
+                       dict(model=[cnb.TFIDFMultinomialNB()],
+                            model__tfidf_max_features=dists.randint(722114, 49558100),
+                            model__alpha=dists.uniform(0, 4.90)
                             )]
 
-        apply_random_search(pip, params_grid, X_train, Y_train, "second_screening_results")
+        ModelSelection.apply_random_search(pip, params_grid, X_train, Y_train, "second_screening_results")
 
 
 a = ModelSelection()
-a.first_screening()
+a.second_screening()
