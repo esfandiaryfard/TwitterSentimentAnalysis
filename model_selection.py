@@ -77,9 +77,9 @@ class ModelSelection:
                 json.dump(model, f, indent=4)
 
     def apply_random_search(pip, params_grid, X_train, Y_train, results_file_name):
-        for i in range(2):
+        for i in range(50):
             print(i)
-            trys = RandomizedSearchCV(pip, param_distributions=params_grid, n_iter=1, n_jobs=1, return_train_score=True)
+            trys = RandomizedSearchCV(pip, param_distributions=params_grid, n_iter=1, n_jobs=4, return_train_score=True)
             search = trys.fit(X_train, Y_train)
             ModelSelection.save_results(search, results_file_name)
 
@@ -203,7 +203,8 @@ class ModelSelection:
         pip = Pipeline([('model', cnb1)])
         params_grid = [dict(model=[cnb.TFIDFLinearSVC()],
                             model__tfidf_max_features=dists.randint(6614037, 44901229),
-                            model__penalty='l2',
+                            model__penalty=['l1', 'l2'],
+                            model__dual=[False],
                             model__tol=dists.uniform(0.000014, 0.00099),
                             model__C=dists.uniform(0.3, 2.0),
                             model__intercept_scaling=dists.uniform(0.22, 9.51),
