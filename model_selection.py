@@ -1,28 +1,15 @@
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
-# from sklearn.metrics import confusion_matrix, classification_report
 import random
 import json
 from importlib.machinery import SourceFileLoader
-
-# importing the add module from the custom packases using the path
-# useful only if you are running in IPython
-# foo = SourceFileLoader(
-#    "settings", "C:\\Users\\biagi\\Desktop\\university\\Second Year\\First Semester\\advanced machine learning\\prog\\Advanced_Machine_Learning_Project\\settings.py"
-# ).load_module()
-
 from settings import BASE_DIR
 from sklearn.model_selection import RandomizedSearchCV
 from sklearn.pipeline import Pipeline
 import scipy.stats.distributions as dists
 import tfidf_models as cnb
 import w2v_models as w2v
-# import Preprocess as ps
-
-# nltk.download('wordnet')
-# nltk.download('stopwords')
-random.seed(16)
 from preprocessing import Preprocessing
 
 
@@ -45,22 +32,7 @@ class ModelSelection:
         Y = df[var_sentiment]
         X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=test_size)
         print("...dataset splitted")
-        return (X_train, X_test, Y_train, Y_test)
-
-    def model_evaluate(model, X, Y):
-        Y_pred = model.predict(X)
-        print(classification_report(Y, Y_pred))
-        cf_matrix = confusion_matrix(Y, Y_pred)
-        categories = ['Negative', 'Positive']
-        group_names = ['True Neg', 'False Pos', 'False Neg', 'True Pos']
-        group_percentages = ['{}'.format(value) for value in cf_matrix.flatten()]
-        labels = [f'{v1}\n{v2}' for v1, v2 in zip(group_names, group_percentages)]
-        labels = np.asarray(labels).reshape(2, 2)
-        sns.heatmap(cf_matrix, annot=labels, cmap='Blues', fmt='',
-                    xticklabels=categories, yticklabels=categories)
-        plt.xlabel("Predicted values", fontdict={'size': 14}, labelpad=10)
-        plt.ylabel("Actual values", fontdict={'size': 14}, labelpad=10)
-        plt.title("Confusion Matrix", fontdict={'size': 18}, pad=20)
+        return X_train, X_test, Y_train, Y_test
 
     def save_results(search, file_name):
         search = search.cv_results_
@@ -78,7 +50,6 @@ class ModelSelection:
 
     def apply_random_search(pip, params_grid, X_train, Y_train, results_file_name):
         for i in range(50):
-            print(i)
             trys = RandomizedSearchCV(pip, param_distributions=params_grid, n_iter=1, n_jobs=4, return_train_score=True)
             search = trys.fit(X_train, Y_train)
             ModelSelection.save_results(search, results_file_name)
@@ -218,5 +189,3 @@ class ModelSelection:
         ModelSelection.apply_random_search(pip, params_grid, X_train, Y_train, "second_screening_results")
 
 
-a = ModelSelection()
-a.second_screening()

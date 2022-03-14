@@ -143,6 +143,10 @@ class TFIDFLinearSVC(LinearSVC):
         X = self.tfidf.df_tfidf_vectorize(X)
         return super().predict(X)
 
+    def predict_proba(self, X):
+        X = self.tfidf.df_tfidf_vectorize(X)
+        return super().predict_proba(X)
+
 
 class TFIDFLogisticRegression(LogisticRegression):
     def __init__(self,
