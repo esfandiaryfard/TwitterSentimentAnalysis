@@ -1,9 +1,5 @@
-import numpy as np
-import pandas as pd
 from sklearn.model_selection import train_test_split
-import random
 import json
-from importlib.machinery import SourceFileLoader
 from settings import BASE_DIR
 from sklearn.model_selection import RandomizedSearchCV
 from sklearn.pipeline import Pipeline
@@ -14,18 +10,6 @@ from preprocessing import Preprocessing
 
 
 class ModelSelection:
-    def resize(dataset, n_obs, var_check, value):
-        import math
-        half = math.floor(n_obs / 2)
-        data_pos = dataset[dataset[var_check] == value]
-        data_neg = dataset[dataset[var_check] != value]
-        data_pos = data_pos.iloc[random.sample(range(0, data_pos.count()[0] + 1), half)]
-        data_neg = data_neg.iloc[random.sample(range(0, data_neg.count()[0] + 1), half)]
-        dataset = pd.concat([data_pos, data_neg])
-        dataset = dataset.sample(frac=1)
-        dataset = dataset.reset_index(drop=True)
-        return dataset
-
     def df_train_test_split(df, var_text, var_sentiment, test_size):
         print("starting splitting dataset...")
         X = df[var_text]
@@ -57,7 +41,7 @@ class ModelSelection:
     def first_screening(self):
         prp = Preprocessing()
         df = prp.main()
-        df = ModelSelection.resize(df, 50000, "sentiment", 4)
+        df = Preprocessing.resize(df, 50000, "sentiment", 4)
         df = Preprocessing.preprocess(df)
         X_train, X_test, Y_train, Y_test = ModelSelection.df_train_test_split(df, "text", "sentiment", test_size=0.05)
         w2v1 = w2v.W2VDecisionTreeClassifier()

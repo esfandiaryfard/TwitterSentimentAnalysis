@@ -1,14 +1,8 @@
-from settings import BASE_DIR
 from sklearn.naive_bayes import GaussianNB, MultinomialNB
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.svm import LinearSVC
 from sklearn.linear_model import LogisticRegression
-from importlib.machinery import SourceFileLoader
-
-foo = SourceFileLoader(
-    "myTFIDF", "{BaseDir}/Advanced_Machine_Learning_Project/ML/myTFIDF.py".format(BaseDir=BASE_DIR)
-).load_module()
-import myTFIDF as mtfidf
+import tfidf as mtfidf
 
 
 class TFIDFGaussianNB(GaussianNB):
@@ -18,12 +12,12 @@ class TFIDFGaussianNB(GaussianNB):
         self.ngram_range = ngram_range
 
     def fit(self, X, y, sample_weight=None):
-        self.tfidf = mtfidf.myTFIDF(X, self.tfidf_max_features, self.ngram_range)
+        self.tfidf = mtfidf.TFIDF(X, self.tfidf_max_features, self.ngram_range)
         X = self.tfidf.df_tfidf_vectorize(X).todense()
         return super().fit(X, y, sample_weight=sample_weight)
 
     def predict(self, X):
-        # tfidf = mtfidf.myTFIDF(self.tfidf_max_features, self.ngram_range)
+        # tfidf = mtfidf.TFIDF(self.tfidf_max_features, self.ngram_range)
         X = self.tfidf.df_tfidf_vectorize(X).todense()
         return super().predict(X)
 
@@ -39,12 +33,12 @@ class TFIDFMultinomialNB(MultinomialNB):
         self.ngram_range = ngram_range
 
     def fit(self, X, y, sample_weight=None):
-        self.tfidf = mtfidf.myTFIDF(X, self.tfidf_max_features, self.ngram_range)
+        self.tfidf = mtfidf.TFIDF(X, self.tfidf_max_features, self.ngram_range)
         X = self.tfidf.df_tfidf_vectorize(X)
         return super().fit(X, y, sample_weight=sample_weight)
 
     def predict(self, X):
-        # tfidf = mtfidf.myTFIDF(self.max_features, self.ngram_range)
+        # tfidf = mtfidf.TFIDF(self.max_features, self.ngram_range)
         X = self.tfidf.df_tfidf_vectorize(X)
         return super().predict(X)
 
@@ -88,7 +82,7 @@ class TFIDFDecisionTreeClassifier(DecisionTreeClassifier):
 
     def fit(self, X, y, sample_weight=None, check_input=True, X_idx_sorted='deprecated'):
         print(self.tfidf_max_features)
-        self.tfidf = mtfidf.myTFIDF(X, self.tfidf_max_features, self.ngram_range)
+        self.tfidf = mtfidf.TFIDF(X, self.tfidf_max_features, self.ngram_range)
         X = self.tfidf.df_tfidf_vectorize(X)
         return super().fit(X=X, y=y, sample_weight=sample_weight, check_input=check_input, X_idx_sorted=X_idx_sorted)
 
@@ -135,7 +129,7 @@ class TFIDFLinearSVC(LinearSVC):
         self.ngram_range = ngram_range
 
     def fit(self, X, y, sample_weight=None):
-        self.tfidf = mtfidf.myTFIDF(X, self.tfidf_max_features, self.ngram_range)
+        self.tfidf = mtfidf.TFIDF(X, self.tfidf_max_features, self.ngram_range)
         X = self.tfidf.df_tfidf_vectorize(X)
         return super().fit(X, y, sample_weight=sample_weight)
 
@@ -188,7 +182,7 @@ class TFIDFLogisticRegression(LogisticRegression):
         self.ngram_range = ngram_range
 
     def fit(self, X, y, sample_weight=None):
-        self.tfidf = mtfidf.myTFIDF(X, self.tfidf_max_features, self.ngram_range)
+        self.tfidf = mtfidf.TFIDF(X, self.tfidf_max_features, self.ngram_range)
         X = self.tfidf.df_tfidf_vectorize(X)
         return super().fit(X, y, sample_weight=sample_weight)
 

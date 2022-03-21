@@ -3,9 +3,22 @@ import string
 import re
 from nltk.stem import SnowballStemmer
 import pandas as pd
+import random
 
 
 class Preprocessing:
+    def resize(dataset, n_obs, var_check, value):
+        import math
+        half = math.floor(n_obs / 2)
+        data_pos = dataset[dataset[var_check] == value]
+        data_neg = dataset[dataset[var_check] != value]
+        data_pos = data_pos.iloc[random.sample(range(0, data_pos.count()[0] + 1), half)]
+        data_neg = data_neg.iloc[random.sample(range(0, data_neg.count()[0] + 1), half)]
+        dataset = pd.concat([data_pos, data_neg])
+        dataset = dataset.sample(frac=1)
+        dataset = dataset.reset_index(drop=True)
+        return dataset
+
     def remove_mentions(text):
         text = " ".join(filter(lambda x: x[0] != '@', text.split()))
         return text
